@@ -1,4 +1,4 @@
-# House-Price-Prediction IIITB February 2022
+# House-Price-Prediction
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
 The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
@@ -13,3 +13,16 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 
 ## Business Goal
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market. Ridge and Lasso Regeression
+
+## General Information
+- EDA, feature selection and prediction done using Advance Linear Regression concepts.
+- Several plots for better visualization and checking dependency of target variable wrt predictors.
+- Hyperparameter tuning done for optimal values of lambda and high r2 score. 
+
+## Conclusions
+- Top 5 predictors are 1stFlrSF: First Floor square feet, 2ndFlrSF: Second floor square feet , Overall Quality, Year of Built, Overall Condition
+- Best model lasso with alpha = 0.00125
+- R2 score (train) :  0.9092
+- R2 score (test) :  0.8923
+- RMSE (train) :  0.1204
+- RMSE (test) :  0.1308
